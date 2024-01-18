@@ -1,0 +1,1 @@
+rocker --nvidia --x11 --user --home myenv:latest
