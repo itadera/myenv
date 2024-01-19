@@ -8,5 +8,10 @@ ssh-keygen
 ```
 1. copy and paste ssh pub key in github
 
+2. clone this repository
+```bash
+git clone https://github.com/itadera/myenv
+cd myenv
+```
 
 
