@@ -1,1 +1,1 @@
-rocker --nvidia --x11 --user --home myenv:latest
+rocker --nvidia --x11  myenv:noetic --volume $HOME/myenv/home/noetic:/root/noetic

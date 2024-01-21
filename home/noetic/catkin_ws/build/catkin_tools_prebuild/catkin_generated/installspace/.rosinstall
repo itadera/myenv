@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /root/noetic/catkin_ws/install/setup.sh
