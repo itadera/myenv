@@ -1,6 +1,0 @@
-devel_space: /root/noetic/catkin_ws/devel
-install: false
-install_space: /root/noetic/catkin_ws/install
-profile: default
-source_space: /root/noetic/catkin_ws/src
-workspace: /root/noetic/catkin_ws
