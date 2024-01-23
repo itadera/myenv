@@ -52,5 +52,7 @@ go https://www.microsoft.com/en-us/edge/download
 5. install vscode
 go https://code.visualstudio.com/Download
 
+- install extentions
+
 
 

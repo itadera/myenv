@@ -10,6 +10,8 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 RUN sh -c "$(wget -O- https://github.com/deluan/zsh-in-docker/releases/download/v1.1.5/zsh-in-docker.sh)"
 # CMD [ "/bin/zsh" ]
 
+
+
 # COPY setup_ws.sh /setup_ws.bash
 # RUN chmod 777 /setup_ws.bash
 
@@ -22,6 +24,7 @@ RUN sh -c "$(wget -O- https://github.com/deluan/zsh-in-docker/releases/download/
 RUN rosdep update
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod 777 /entrypoint.sh
+
 
 # Path: docker/noetic/entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
