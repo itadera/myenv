@@ -9,4 +9,4 @@ mkdir -p $HOME/ros/${image_name}/catkin_ws/src
 cd $HOME/ros/${image_name}/catkin_ws/src
 
 cd $DIR
-docker build -t myenv:noetic . 
+docker build -t myenv:${image_name} . 

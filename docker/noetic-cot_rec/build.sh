@@ -12,9 +12,15 @@ if [ ! -d OpenHRC ]; then
     git clone https://github.com/itadera/OpenHRC.git 
     cd OpenHRC
     git submodule update --init --recursive
+    cd ..
 fi
 
-
+if [ ! -d CoT-Rec ]; then
+    git clone git@github.com:itadera/CoT-Rec.git 
+    cd CoT-Rec
+    git submodule update --init --recursive
+    cd ..
+fi
 
 cd $DIR
 docker build -t myenv:${image_name} .
